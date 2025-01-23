@@ -12,15 +12,15 @@ The country’s flag.
 
 The backend is built with Node.js and Express, while the frontend is built with React. The application integrates external APIs to fetch the necessary data.
 
-Features
+--Features
 
-Country List Page:
+--Country List Page:
 
 Displays a list of countries retrieved from the backend.
 
 Each country name is clickable and navigates to a detailed view of that country.
 
-Country Info Page:
+--Country Info Page:
 
 Shows detailed information about the selected country:
 
@@ -32,9 +32,9 @@ Border Countries Widget: Lists all neighboring countries with clickable links.
 
 Population Chart: Displays historical population data using a line chart.
 
-Technologies Used
+--Technologies Used
 
-Backend
+--Backend
 
 Node.js
 
@@ -42,7 +42,7 @@ Express
 
 node-fetch for external API requests
 
-Frontend
+--Frontend
 
 React
 
@@ -50,15 +50,15 @@ React Router for navigation
 
 Chart.js and react-chartjs-2 for displaying population data in a chart
 
-External APIs
+--External APIs
 
 Date Nager API: Provides information about available countries and their borders.
 
 Countries Now API: Used to fetch population data and flag images.
 
-Installation and Setup
+--Installation and Setup
 
-Backend
+--Backend
 
 Clone the repository.
 
@@ -74,7 +74,7 @@ node index.js
 
 The backend will run on http://localhost:5000.
 
-Frontend
+--Frontend
 
 Navigate to the frontend folder.
 
@@ -86,11 +86,11 @@ Start the development server:
 
 npm run dev
 
-The frontend will run on http://localhost:3000.
+The frontend will run on http://localhost:5173.
 
-API Endpoints
+--API Endpoints
 
-Backend Endpoints
+--Backend Endpoints
 
 /api/available-countries
 
@@ -107,7 +107,7 @@ Description: Fetches detailed information about a specific country, including bo
 
 
 
-Usage
+--Usage
 
 Open the frontend in your browser at http://localhost:5173.
 
