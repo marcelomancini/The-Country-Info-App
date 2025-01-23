@@ -70,7 +70,7 @@ npm install
 
 Start the server:
 
-node server.js
+node index.js
 
 The backend will run on http://localhost:5000.
 
@@ -84,7 +84,7 @@ npm install
 
 Start the development server:
 
-npm start
+npm run dev
 
 The frontend will run on http://localhost:3000.
 
@@ -109,7 +109,7 @@ Description: Fetches detailed information about a specific country, including bo
 
 Usage
 
-Open the frontend in your browser at http://localhost:3000.
+Open the frontend in your browser at http://localhost:5173.
 
 Explore the list of countries.
 
